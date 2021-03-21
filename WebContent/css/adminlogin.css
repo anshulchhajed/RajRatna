@@ -1,0 +1,99 @@
+
+
+#td1{
+	color: white;
+	width:100px;
+}
+
+td{
+	
+	color:black;
+
+}
+#tab-div{
+margin-top: 100px;
+border: 2px solid black;
+padding: 12px;
+background-color:transparent;
+border-radius:15px;
+box-shadow: 0px 0px 100px 5px black inset;
+align:center;
+border:1px solid transparent;
+margin-bottom:40px;
+color: white;
+font-size:12px;
+align:center;
+display: inline-block;
+}
+
+body
+{
+	height:100%;
+	width:100%;;
+background-image:url('images/img3.jpg');
+color:black;
+background-repeat: no-repeat;
+background-size:1400px;	
+
+}
+
+#submit_button
+{
+width:100%;
+background-color:transparent;
+color:white;
+border-color:transparent;
+box-shadow:0px 0px 1px 1px black inset;
+margin-top:10px;
+font: bold 15px arial,sans-serif;
+height: 40px;
+align: center;
+}
+
+#submit_button:hover
+{
+color:white;
+box-shadow:0px 0px 25px 1px black inset;
+
+}
+
+#admin_text:focus
+{
+background-color:transparent;
+
+box-shadow:0px 0px 50px 10px black;
+
+transition-duration:.5s;
+color:white;
+}
+
+#admin_pass:focus
+{
+background-color:transparent;
+
+box-shadow:0px 0px 20px 2px black;
+
+transition-duration:1s;
+color:white;
+
+}
+.footer {
+	background-color: transparent;
+	box-shadow:0px 0px 20px 2px black;
+	color:white;
+	text-align: center;
+	font-size: 12px;
+	padding: 15px;
+	margin-top:20px;
+}
+
+
+
+input[type=text], select ,[type=password]{
+  padding: 4px 4px 4px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}

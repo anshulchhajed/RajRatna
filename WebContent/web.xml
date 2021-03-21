@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" metadata-complete="true" version="3.1">
+  <display-name>RajRatna</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>classes.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>dataServlet</servlet-name>
+    <servlet-class>classes.dataServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>dataServlet</servlet-name>
+    <url-pattern>/dataServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>AddDataServlet</servlet-name>
+    <servlet-class>classes.AddDataServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddDataServlet</servlet-name>
+    <url-pattern>/AddDataServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>AddDealerServlet</servlet-name>
+    <servlet-class>classes.AddDealerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddDealerServlet</servlet-name>
+    <url-pattern>/AddDealerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ModifyDealerServlet</servlet-name>
+    <servlet-class>classes.ModifyDealerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ModifyDealerServlet</servlet-name>
+    <url-pattern>/ModifyDealerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ModifyDealerDataServlet</servlet-name>
+    <servlet-class>classes.ModifyDealerDataServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ModifyDealerDataServlet</servlet-name>
+    <url-pattern>/ModifyDealerDataServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>BillingServlet</servlet-name>
+    <servlet-class>classes.BillingServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BillingServlet</servlet-name>
+    <url-pattern>/BillingServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>CustomerServlet</servlet-name>
+    <servlet-class>classes.CustomerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CustomerServlet</servlet-name>
+    <url-pattern>/CustomerServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AddItemServlet</servlet-name>
+    <servlet-class>classes.AddItemServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddItemServlet</servlet-name>
+    <url-pattern>/AddItemServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>PurchaseBookServlet</servlet-name>
+    <servlet-class>classes.PurchaseBookServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PurchaseBookServlet</servlet-name>
+    <url-pattern>/PurchaseBookServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
