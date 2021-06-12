@@ -13,22 +13,23 @@
 <jsp:include page="common.jsp"></jsp:include>
 
 <body>
-
 	<jsp:include page="header.jsp"></jsp:include>
 
+
 	<form name="clockForm" action="BillingServlet" method="post">
-
 		<div class="container-fluid text-center">
-			<jsp:include page="left.jsp"></jsp:include>
+			<div class="row content">
 
-			<div class="col-sm-8 text-left">
-				<p>
-				<h1>Hi!</h1>
-				</p>
+				<jsp:include page="left.jsp"></jsp:include>
+
+				<div class="col-sm-8 text-left">
+					<p></p>
+					<h1>Hi!</h1>
+					<p></p>
+				</div>
+				<jsp:include page="rightPart.jsp"></jsp:include>
 			</div>
-			<jsp:include page="rightPart.jsp"></jsp:include>
 		</div>
-
 		<jsp:include page="footer.jsp"></jsp:include>
 
 	</form>

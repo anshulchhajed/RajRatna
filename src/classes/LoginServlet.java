@@ -45,7 +45,7 @@ public class LoginServlet extends HttpServlet {
 		obj.login_password=request.getParameter("login_password");
 		obj.user_type=request.getParameter("user_type");
 
-		ArrayList al=db.getLogin(obj);
+		ArrayList<?> al=db.getLogin(obj);
 
 		if(al.size()!=0)
 		{

@@ -11,7 +11,7 @@ function validate(){
 		}
 
 function home(){
-	window.location.href="test.jsp";
+	window.location.href="home.jsp";
 }
 
 function clock(){

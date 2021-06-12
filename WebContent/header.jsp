@@ -13,10 +13,10 @@
       </button>
       <a class="navbar-brand" href="#">
     <%
-					String a = (String) request.getSession().getAttribute("msg");
-					if (a != null) {
+					String sessionUser = (String) request.getSession().getAttribute("msg");
+					if (sessionUser != null) {
 				%>
-			<p onclick="home()"><%=a%></p>
+			<p onclick="home()"><%=sessionUser%></p>
 			
 				<%
 					}
